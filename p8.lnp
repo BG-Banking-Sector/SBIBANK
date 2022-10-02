@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "p8.o" 
+--strict --scatter "p8.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\p8.map" -o p8.axf

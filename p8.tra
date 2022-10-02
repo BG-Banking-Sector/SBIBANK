@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'p8.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"p8.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "p8.o" 
+--strict --scatter "p8.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\p8.map" -o p8.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'p8.axf'
+### ADS-LD Command File: 'p8.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'p8.lnp', Handle=0x000009A0
+### Writing '.lnp' file
+### ADS-LD Command file 'p8.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

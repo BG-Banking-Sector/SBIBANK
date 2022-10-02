@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Rahul\Desktop\rahul\p3.uvproj
+Project File Date:  <unknown>
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling p3.c...
+p3.c(5): error:  #20: identifier "T0TCR0" is undefined
+p3.c(11): error:  #20: identifier "T0MCR0" is undefined
+p3.c(19): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling p3.c...
+p3.c(11): error:  #20: identifier "T0MCR0" is undefined
+p3.c(19): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling p3.c...
+p3.c(19): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=812 RO-data=16 RW-data=0 ZI-data=1256  
+"p3.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling p3.c...
+p3.c(19): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=812 RO-data=16 RW-data=0 ZI-data=1256  
+"p3.axf" - 0 Error(s), 1 Warning(s).
